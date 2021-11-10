@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@mipmap/bad"
+        android:title="@string/bad"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@mipmap/smile"
+        android:title="@string/good"/>
+</menu>

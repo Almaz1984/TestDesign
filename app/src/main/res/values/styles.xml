@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="MyTextStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FF5722</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">42sp</item>
+    </style>
+    <style name="MySliderStyle" parent="Widget.MaterialComponents.Slider">
+        <item name="android:layout_width"> 200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/slider_desc</item>
+        <item name="android:value">20.0</item>
+        <item name="android:valueFrom">0.0</item>
+         <item name="android:valueTo">100.0</item>
+        <item name="android:stepSize">1</item>
+        <item name="trackColorActive">#D81B60</item>
+        <item name="trackColorInactive">#F8BBD0</item>
+        <item name="thumbColor">#C51162</item>
+    </style>
+    <style name="MyAllTextStyle" parent="@style/MyTextStyle">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+
+</resources>

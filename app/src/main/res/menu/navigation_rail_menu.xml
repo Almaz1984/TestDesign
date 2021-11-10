@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@mipmap/alarm"
+        android:id="@+id/alarms"
+        android:enabled="true"
+        android:title="@string/alarms_destination_label"/>
+    <item
+        android:id="@+id/timer"
+        android:enabled="true"
+        android:icon="@mipmap/timer"
+        android:title="@string/timer_destination_label"/>
+</menu>

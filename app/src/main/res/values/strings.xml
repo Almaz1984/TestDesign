@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TestDesign</string>
+    <string name="good">good</string>
+    <string name="bad">bad</string>
+    <string name="label_1">Option 1</string>
+    <string name="label_2">Option 2</string>
+    <string name="label_3">Option 3</string>
+    <string name="slider_desc">Sound volume</string>
+    <string name="alarms_destination_label">Alarm</string>
+    <string name="timer_destination_label">Timer</string>
+    <string name="switchon">Switch on</string>
+    <string name="text">My text</string>
+    <string name="hello">Hello World!</string>
+</resources>
